@@ -12,4 +12,4 @@ export default page
 
 
 //npm i -D prisma = dev dependency prisma
-//npmx prisma init
+//npx prisma init
