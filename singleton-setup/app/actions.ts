@@ -120,9 +120,9 @@ export async function createUser({ email, name }: { email: string; name?: string
     revalidatePath('/');
     
     return user;
-  } catch (error: any) {
+  } catch (error: unknown) {
     // Handle duplicate email error
-    if (error.code === 'P2002') {
+    if (error && typeof error === 'object' && 'code' in error && error.code === 'P2002') {
       throw new Error('A user with this email already exists');
     }
     
