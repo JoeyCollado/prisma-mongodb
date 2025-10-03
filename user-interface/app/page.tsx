@@ -50,3 +50,7 @@ export default async function Home() {
 //https://cloud.mongodb.com/v2/68bd8455e2c39a0339f6bcc1#/overview
 
 //https://www.youtube.com/watch?v=7t_cL2BQ5Ok
+
+
+//shadcn initialization
+//npx shadcn@latest init
