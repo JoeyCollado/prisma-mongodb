@@ -54,3 +54,6 @@ export default async function Home() {
 
 //shadcn initialization
 //npx shadcn@latest init
+
+//add components
+//npx shadcn@latest add button card input label sonner
